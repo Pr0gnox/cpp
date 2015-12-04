@@ -7,6 +7,9 @@ int functionAufrufe(){
 
     zahler++;
 
+    cout<<"Funktion: Zaehler = "<<zahler<<endl;
+    cout<<endl;
+
 
 return zahler;
 }
