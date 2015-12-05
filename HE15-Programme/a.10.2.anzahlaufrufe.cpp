@@ -10,7 +10,6 @@ int functionAufrufe(){
     cout<<"Funktion: Zaehler = "<<zahler<<endl;
     cout<<endl;
 
-
 return zahler;
 }
 
@@ -20,7 +19,6 @@ int main () {
 
     cout<<"Wie oft soll die Funktion ausgefuehrt werden?"<<endl;
     cin>>aufrufe;
-
 
     for(int i=0; i<aufrufe-1; i++){
         functionAufrufe();
