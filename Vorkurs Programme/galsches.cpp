@@ -13,16 +13,16 @@ int main () {
 	int counter = 0;
 	int array[6] = {};
 	srand((unsigned)time(0));
-	
-	
-	
+
+
+
 	//Alle kästchen auf 0
 	for (int i = 0 ; i < slots ; i++)
 	{
 		array[i] = 0;
 	}
-	
-	
+
+
 	//Schleife für Kugeln
 	for (int n = 0; n < durchgang; n++)
 	{
@@ -34,13 +34,13 @@ int main () {
 		}
 		array[counter]++;
 	}
-   
+
 	//Ausgabe
 	for (int i=0; i < slots; i++)
 	{
 		cout << "Slots"<< (i+1) <<": "<< array[i]<<endl;
 	}
-	
-	
+
+
 	return 0;
 }
